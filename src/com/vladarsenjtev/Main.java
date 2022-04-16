@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static LinkedList<String> addFirst(LinkedList<String> list, String str) {
-        list.add(str);
+        list.addLast(str);
         return list;
     }
 }
